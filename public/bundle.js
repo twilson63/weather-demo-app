@@ -383,6 +383,7 @@
 			c() {
 				img = createElement("img");
 				img.src = "/spinner.svg";
+				img.alt = "loading weather";
 			},
 
 			m(target, anchor) {

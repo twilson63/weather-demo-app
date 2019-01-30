@@ -50,7 +50,7 @@ function retry() {
   <button on:click={retry} type="button">Retry</button>
   {:else}
     {#if loading}
-    <img src="/spinner.svg" />
+    <img src="/spinner.svg" alt="loading weather" />
     {:else}
     <img src="{weather.icon}" alt="{weather.forecast}" />
     <h3>{weather.location}</h3>

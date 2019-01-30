@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "weather",
+  "builds": [
+    { "src": "*.html", "use": "@now/static"},
+    { "src": "*.js", "use": "@now/static"},
+    { "src": "*.css", "use": "@now/static"},
+    { "src": "*.svg", "use": "@now/static"}
+  ],
+  "routes": [
+    {"src": "/", "dest": "/index.html"}
+  ],
+  "alias": ["weather-app.twilson63.xyz"]
+}
